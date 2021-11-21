@@ -1,0 +1,331 @@
+*
+{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     font-size: 16px;   
+     cursor: context-menu;
+     scroll-behavior: smooth;
+     
+ 
+}
+body
+{
+    overflow: hidden;
+}
+
+#lood
+{
+    background-image: url("../Img/anim-carte-design-turquie.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+   
+}
+.Company
+{
+    color: white;
+    height: 100vh;
+    width: 23.4%;
+    background-color: #f44336;
+    font-weight: 700;
+    position: fixed;
+
+    
+    
+  
+   
+}
+.Company h3
+{
+    position: absolute;
+    font-size: 24px;
+    width: 0%;
+    top: 12%;
+    left: 13.5%;
+    line-height: 30px;
+    
+   
+   
+}
+.Company a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.Company  ul
+{   
+
+    position: absolute;
+    list-style-type: none;
+    line-height: 40px;  
+    word-spacing: 20px;
+    top: 28%;
+    left: 7%;
+
+}
+.Company  ul li
+{
+    padding-left: 15px;
+}
+
+.Company li:hover
+{
+    
+    background-color: white;
+    width: 27.5vh;
+}
+.Company li:hover a
+{
+    color: black;
+}
+.grids
+{
+   padding: 30px;
+   padding-top: 90px;
+   padding-left: 50px;
+    width: 74.6%;
+    position: relative;
+    left: 24%;
+    text-align: justify;
+   
+    
+}
+.gridsimg
+{
+    width: 100%;
+}
+.grids h1
+{
+    font-family: "Poppins", sans-serif;  
+   
+    font-size: 60px;
+}
+.grids h2 
+{
+    font-family: "Poppins", sans-serif;   
+    font-size: 50px;
+    color: #f44336;
+}
+.clr
+{
+    clear: both;
+}
+ hr
+{
+  width: 60px;
+  border: 5px solid red;
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  margin-bottom: 20px;
+}
+
+.iime
+{
+  padding-right: 20px;
+  width: 50%;
+  float: left;
+  margin-bottom: 15px;
+}
+.iime img
+{
+    width: 100%;
+    opacity: 0.8;
+    
+}
+.iime:hover img
+{
+    opacity: 1;
+}
+.grids-cont
+{
+    line-height: 100px;
+}
+
+.service
+{
+  
+
+    line-height: 25px;
+    width: 100%;
+}
+.Fchild
+{ 
+
+    margin-bottom: 20px;
+    
+    width: 100%;
+}
+.headcont
+{
+    line-height: 100px;  
+   
+}
+.Designers
+{
+    padding-top: 100px;
+}
+
+.f
+{
+    background-color: #f1f1f1;
+    text-align: start;
+    width: 33.3333333%;
+    float: left;
+    border: 10px white solid;
+    filter: grayscale(75%);
+    -webkit-filter: grayscale(75%);
+}
+.f h3,h4,p
+{
+    padding: 10px;
+}
+.f img
+{
+    width: 100%;
+}
+.f h4
+{
+    opacity: .50;
+}
+.f h3
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.plan
+{
+    text-align: center; 
+    width: 50%;
+    background-color: rgb(97,97,97);
+    float: left;
+    border: white 10px solid;
+    margin-bottom: 60px;
+    
+
+}
+
+.plan ul
+{
+    list-style-type: none;
+    background-color: rgb(241,241,241);
+   
+    
+}   
+.plan h3
+{
+    padding: 30px 0px;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+}
+.plan ul li h3
+{
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+
+}
+.plan ul li span
+{
+    color: rgb(136,136,136);
+}
+.plan ul li button
+{
+    background-color: white;
+    border: none;
+    padding: 10px 18px;
+}
+
+
+.plan ul li
+{
+    border:  1px solid #ddd;
+    padding: 20px 0px;
+}
+
+
+.plan ul li button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
+::selection {
+    background-color: rgb(108, 131, 159);
+    color: white;
+
+}
+
+
+#Cl
+{
+    background-color: rgb(244,67,54);
+    color: white;
+}
+
+ #Cl:hover
+{
+    background-color: black;
+    
+}
+
+#Contact
+{
+    padding: 10px;
+}
+
+
+
+
+
+.context h3
+{
+    padding: 5px 0px;
+    font-weight: 100;
+}
+.context input
+{
+    width: 100%;
+    padding: 7px;
+    border: rgb(204,204,204) solid 1px;
+}
+.context button
+{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(244,67,54);
+    border: none;
+    color: white;
+}
+
+
+
+.footer
+{
+    margin-top: 30px;
+    background-color: rgb(241,241,241);
+    text-align: end;
+    width: 100%;
+    padding: 50px;
+    color: black;
+    
+}
+.footer a
+{
+    color: black;
+   
+}
